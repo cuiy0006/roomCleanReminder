@@ -32,7 +32,7 @@ def _format_addr(s):
 #CONTACTS = [('CY1', 'yc2554@nyu.edu'), ('CY2', 'cuiy0006@gmail.com'), ('CY3', 'cuiy0006@outlook.com')]
 
 FROM_ADDR = 'cuiy0006@outlook.com'
-PASSWORD = 'Eat1Apple!'
+PASSWORD = 'email password'
 TMP = [email for name, email in CONTACTS]
 TO_ADDR = ','.join(TMP)
 STMP_SERVER = 'smtp-mail.outlook.com'
