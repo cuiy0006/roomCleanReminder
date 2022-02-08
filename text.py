@@ -23,4 +23,4 @@ def send_email(user, pwd, recipient, subject, body):
     except:
         print("Unexpected error:", sys.exc_info()[0])
 
-send_email('cuiy0006@outlook.com', 'Eat1Apple!', 'yc2554@nyu.edu', 'hi', 'hello world')
+send_email('cuiy0006@outlook.com', '*******', 'yc2554@nyu.edu', 'hi', 'hello world')
